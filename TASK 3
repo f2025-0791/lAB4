@@ -1,0 +1,19 @@
+#include <iostream>
+#include <iomanip> 
+#include <string>
+using namespace std;
+int main() {
+      const double PI = 3.1415926535;  // constant value of π
+    double radius, height;
+    double area, volume;
+    cout << "Enter the radius of the cylinder: ";
+    cin >> radius;
+  cout << "Enter the height of the cylinder: ";
+    cin >> height;
+    area = 2 * PI * radius * height + 2 * PI * radius * radius;
+    volume = PI * radius * radius * height;
+    cout << "\nSurface Area of Cylinder: " << area << " square units" << endl;
+    cout << "Volume of Cylinder: " << volume << " cubic units" << endl;
+  return 0;
+}
+
