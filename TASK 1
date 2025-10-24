@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip> 
+#include <string>
+using namespace std;
+int main() {
+    cout << "\t\tPersonal Information\n";
+  cout << "Name:\t\tSana Nasir\n";
+    cout << "Department:\MBC\n";
+    cout << "Favorite Quote:\t\"Im on a seafood diet,I see food and i eat it HeheeheeheYAYAAYAYAYAYYA; "
+ << "it is the courage to continue that counts.\"\n";
+    cout << "\t\tEnd of Program\n";
+    return 0;
+}
+
+
